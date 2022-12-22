@@ -1,0 +1,43 @@
+.card{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 0 6.666px 35px;
+    background-color: #fff;
+    line-height: 0;
+}
+.card .container{
+    display: block;
+}
+.card .container .imgg{
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #ddd;
+    width: 100%;
+    background-image: url("https://cdn.oxu.az/uploads/W1siZiIsIjIwMjIvMTIvMjIvMTYvMTMvMjAvN2YyN2YyOWYtMzZmZS00ZWYzLWI0NTUtNGJlYTJjNjA1ZWM3L2Zlcm1hbi5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQxM1x1MDAzZSJdXQ?sha=31cecd7f3a84b4e5");
+}
+.card .container .text{
+    height: 95px;
+    padding: 15px 20px 25px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-width: 0 1px;
+    line-height: 1.5;
+    color: black;
+}
+.card .container .text .title{
+    margin-bottom: 5px;
+    color: #13317f;
+    line-height: 1.25;
+    font-family: pf_din_text_cond_promedium,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card .container .text .description{
+    color: #333;
+    line-height: 1.4;
+    font-size: 15px;
+}

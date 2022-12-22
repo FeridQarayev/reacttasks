@@ -1,0 +1,36 @@
+.navbar{
+    background-color: #222;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 40%);
+    position: relative;
+    z-index: 2;
+    top: 0;
+    transform: translateZ(0);
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.navbar .lists{
+    max-height: 45px;
+    overflow: hidden;
+    max-width: 900px;
+    display: block;
+    line-height: 45px
+}
+.navbar .icon{
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar .icon:hover{
+    background-color: #454545;
+}
