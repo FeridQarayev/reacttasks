@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Akif",
+      "surname": "AAi A",
+      "category": "Iguana"
+    },
+    {
+      "id": 2,
+      "name": "Senan",
+      "surname": "LLl A",
+      "category": "Iguana"
+    },
+    {
+      "id": 3,
+      "name": "Gulbahar",
+      "surname": "AAi A",
+      "category": "Wolf"
+    },
+    {
+      "id": 4,
+      "name": "Visne",
+      "surname": "LLaa A",
+      "category": "People"
+    }
+  ]
+}
